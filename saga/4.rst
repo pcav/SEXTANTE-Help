@@ -1,0 +1,40 @@
+UPSLOPE AREA
+============
+
+Description
+-----------
+
+Parameters
+----------
+
+- ``Target Area[Raster]``:
+- ``Target X coordinate[Number]``:
+- ``Target Y coordinate[Number]``:
+- ``Elevation[Raster]``:
+- ``Sink Routes[Raster]``:
+- ``Method[Selection]``:
+- ``Convergence[Number]``:
+
+Outputs
+-------
+
+- ``Upslope Area[Raster]``:
+
+See also
+---------
+
+
+Console usage
+-------------
+
+
+::
+
+	sextante.runalg('saga:4', target, target_pt_x, target_pt_y, elevation, sinkroute, method, converge, area)
+
+	Available options for selection parameters:
+
+	method(Method)
+		0 - [0] Deterministic 8
+		1 - [1] Deterministic Infinity
+		2 - [2] Multiple Flow Direction
