@@ -1,0 +1,7 @@
+Some ideas about how to create help files
+******************************************
+
+- Do not describe the formulation in detail. Just give references when needed or simply cite the name of the algorithm used.
+- Have in mind that this is not a textbook or a learning material. Just describe the algorithm but do not explain it or the meaning of its parameters beyond what is needed to understand how it is implemented and how to use it. 
+- Add figures when needed.
+- Only add examples when they are necessary to clarify an option or parameter.
