@@ -3,7 +3,7 @@ CONVERT POINTS TO LINE(S)
 
 Description
 -----------
-This algorithm transforms a points layer in a lines one.
+This algorithm transforms a points layer into a lines one.
 
 Parameters
 ----------
