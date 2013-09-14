@@ -3,19 +3,24 @@ GEOMETRIC FIGURES
 
 Description
 -----------
-
+This algorithm draws simple geometric figures. It is possible to choose the total amount of the cells and their size of the resulting figure.
+The geometric figures available are:
+- cone (up), values rise from the center to the borders
+- cone (down), values rise from the borders to the center
+- plane, values rise from the bottom to the upper part
+You can also choose the rotation of the figure (in degrees, clockwise) 
 Parameters
 ----------
 
-- ``Cell Count[Number]``:
-- ``Cell Size[Number]``:
-- ``Figure[Selection]``:
-- ``Direction of Plane [Degree][Number]``:
+- ``Cell Count[Number]``: number of cells 
+- ``Cell Size[Number]``: size of the single cell
+- ``Figure[Selection]``: type of geometrical figure
+- ``Direction of Plane [Degree][Number]``:rotation factor in degrees
 
 Outputs
 -------
 
-- ``Result[Raster]``:
+- ``Result[Raster]``: the resulting grid layer
 
 See also
 ---------
