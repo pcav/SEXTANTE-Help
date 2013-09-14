@@ -3,17 +3,23 @@ METRIC CONVERSIONS
 
 Description
 -----------
+This algorithm offers a quick way to execute numerical conversions of the grid values. 
+Conversions units available are:
+- radians to degree
+- degree to radians
+- Celsius to Fahrenheit
+- Fahrenheit to Celsius
 
 Parameters
 ----------
 
-- ``Grid[Raster]``:
-- ``Conversion[Selection]``:
+- ``Grid[Raster]``: grid in input
+- ``Conversion[Selection]``: conversions parameter
 
 Outputs
 -------
 
-- ``Converted Grid[Raster]``:
+- ``Converted Grid[Raster]``: the resulting layer
 
 See also
 ---------
