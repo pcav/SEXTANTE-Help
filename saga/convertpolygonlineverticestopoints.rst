@@ -3,16 +3,17 @@ CONVERT POLYGON/LINE VERTICES TO POINTS
 
 Description
 -----------
+This algorithm converts the line vertices into points and creates a points layer. 
 
 Parameters
 ----------
 
-- ``Shapes[Vector]``:
+- ``Shapes[Vector]``: it make sense using polygons or lines layer in input
 
 Outputs
 -------
 
-- ``Points[Vector]``:
+- ``Points[Vector]``: resulting layer
 
 See also
 ---------
