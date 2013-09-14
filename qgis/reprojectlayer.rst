@@ -3,17 +3,17 @@ REPROJECT LAYER
 
 Description
 -----------
-
+This algorithm reprojects a vector layer in a different CRS.
 Parameters
 ----------
 
-- ``Input layer[Vector]``:
-- ``Target CRS[Crs]``:
+- ``Input layer[Vector]``: vector to be reprojected
+- ``Target CRS[Crs]``: the final CRS of the vector
 
 Outputs
 -------
 
-- ``Reprojected layer[Vector]``:
+- ``Reprojected layer[Vector]``:resulting vector layer reprojected in the new CRS.
 
 See also
 ---------
