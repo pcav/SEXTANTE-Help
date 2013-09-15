@@ -3,19 +3,23 @@ CHANGE TIME FORMAT
 
 Description
 -----------
+This algorithm converts the time format of the input layer and creates a table in output. Be careful at the separation characters between the fields, for example:
+
+- hh.mm.ss means 02.04.59
+- hhmmss means 044507
 
 Parameters
 ----------
 
-- ``Table[Table]``:
-- ``Time Field[TableField]``:
-- ``Input Format[Selection]``:
-- ``Output Format[Selection]``:
+- ``Table[Table]``: table or layer attribute table in input
+- ``Time Field[TableField]``: field of the table containing the time format
+- ``Input Format[Selection]``: time format in input (see above for some example)
+- ``Output Format[Selection]``: time format in output (see above for some example)
 
 Outputs
 -------
 
-- ``Output[Table]``:
+- ``Output[Table]``: the resulting table
 
 See also
 ---------
