@@ -3,19 +3,25 @@ CHANGE DATE FORMAT
 
 Description
 -----------
+This algorithm converts the date format of the input layer and creates a table in output. Be careful at the separation characters between the fields, for example:
+
+- dd.mm.yy means 16.08.07
+- yymmdd means 090528
+
+
 
 Parameters
 ----------
 
-- ``Table[Table]``:
-- ``Date Field[TableField]``:
-- ``Input Format[Selection]``:
-- ``Output Format[Selection]``:
+- ``Table[Table]``: table or layer attribute table in input
+- ``Date Field[TableField]``: field of the table containing the date
+- ``Input Format[Selection]``: date format in input (see above for some example)
+- ``Output Format[Selection]``: date format in output (see above for some example)
 
 Outputs
 -------
 
-- ``Output[Table]``:
+- ``Output[Table]``: the resulting table
 
 See also
 ---------
