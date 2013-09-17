@@ -3,18 +3,24 @@ ADD GRID VALUES TO POINTS
 
 Description
 -----------
-
+This algorithm creates a new vector layer as a result of the union of a points layer with the interpolated value of one or more base background grid layer/s. This way, the new layer created will have a new column in the attribute table that reflects the interpolated value of the background grid. 
+There are several interpolation methods available:
+- nearest neighbor 
+- bilinear interpolation
+- inverse distance interpolation
+- bicubic spline interpolation
+- b-spline interpolation
 Parameters
 ----------
 
-- ``Points[Vector]``:
-- ``Grids[MultipleInput]``:
-- ``Interpolation[Selection]``:
+- ``Points[Vector]``: points layer in input
+- ``Grids[MultipleInput]``: background grid layer (it possible to choose multiple grids)
+- ``Interpolation[Selection]``: interpolation method 
 
 Outputs
 -------
 
-- ``Result[Vector]``:
+- ``Result[Vector]``: the resulting vector
 
 See also
 ---------

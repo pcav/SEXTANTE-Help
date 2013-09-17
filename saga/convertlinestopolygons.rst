@@ -3,16 +3,17 @@ CONVERT LINES TO POLYGONS
 
 Description
 -----------
+This algorithm converts a lines layer into a polygons layer. 
 
 Parameters
 ----------
 
-- ``Lines[Vector]``:
+- ``Lines[Vector]``: lines layer in input
 
 Outputs
 -------
 
-- ``Polygons[Vector]``:
+- ``Polygons[Vector]``: resulting polygons layer 
 
 See also
 ---------
