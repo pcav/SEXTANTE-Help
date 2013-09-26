@@ -3,7 +3,8 @@ COUNT POINTS IN POLYGON
 
 Description
 -----------
-This algorithm counts the number of points present in each feature of a polygons layer. .   
+This algorithm counts the number of points present in each feature of a polygons layer. 
+
 Parameters
 ----------
 
