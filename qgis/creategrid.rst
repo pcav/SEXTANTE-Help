@@ -3,22 +3,29 @@ CREATE GRID
 
 Description
 -----------
+This algorithm creates a grid and adds it to the map canvas. You can decide the extent of the grid, the spacing between the 
+lines and the output file type (lines or polygons layer according to the grid type option). Moreover you can choose the
+position of the grid (according to the center of the grid) and the corrdinate reference system (CRS).
 
 Parameters
 ----------
 
-- ``Horizontal spacing[Number]``:
-- ``Vertical spacing[Number]``:
-- ``Width[Number]``:
-- ``Height[Number]``:
-- ``Center X[Number]``:
-- ``Center Y[Number]``:
-- ``Grid type[Selection]``:
+- ``Horizontal spacing[Number]``: x-axes spacing between the lines (meters)
+- ``Vertical spacing[Number]``: y-axes spacing between the lines (meters)
+- ``Width[Number]``: horizontal extent of the grid
+- ``Height[Number]``: vertical extent of the grid
+- ``Center X[Number]``: x-coordinate of the grid center
+- ``Center Y[Number]``: y-coordinate of the grid center
+- ``Grid type[Selection]``: 4 grid types availables
+	- Rectangle (line)
+	- Rectangle (polygon)
+	- Diamond (polygon)
+	- Hexagon (polygon)
 
 Outputs
 -------
 
-- ``Output[Vector]``:
+- ``Output[Vector]``: the resulting grid (lines or polygons) layer
 
 See also
 ---------
